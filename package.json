@@ -1,0 +1,21 @@
+{
+  "name": "sbt-utility",
+  "version": "1.0.0",
+  "description": "Discord Bot for Zima OS",
+  "main": "index2.js",
+  "scripts": {
+    "start": "node index2.js",
+    "dev": "nodemon index2.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "discord.js": "^14.19.2",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
