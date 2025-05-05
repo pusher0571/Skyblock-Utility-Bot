@@ -13,10 +13,10 @@ for (const file of commandFiles) {
   commands.push(command.data.toJSON());
 }
 
-const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_TOKEN);
+const rest = new REST({ version: '10' }).setToken(config.token);
 
 // GUILD_ID ist optional, für Tests schneller, für globalen Rollout einfach nur applicationCommands
-const CLIENT_ID = '1361311683951329292'; 
+const CLIENT_ID = config.ClientID; 
 const GUILD_ID = config.guildId; 
 
 (async () => {

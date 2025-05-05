@@ -3,6 +3,12 @@ const fs = require('fs');
 const path = require('path');
 const config = require('./config');
 
+
+const savefilesPath = path.join(__dirname, 'savefiles');
+if (!fs.existsSync(savefilesPath)) {
+    fs.mkdirSync(savefilesPath, { recursive: true });
+}
+
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.commands = new Collection();
 

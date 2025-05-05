@@ -1,5 +1,6 @@
 module.exports = {
   token: 'your_discord_bot_token',
+  CLIENT_ID: 'your_discord_client_id',
   guildId: 'your_guild_id',
   API: {
     HypixelAPIKEY: 'your_hypixel_api_key',
