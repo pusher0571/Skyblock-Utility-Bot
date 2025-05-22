@@ -23,7 +23,7 @@ A Discord bot for the Hypixel Skyblock, featuring various utility commands and s
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/sbt-utility.git
+git clone https://github.com/pusher0571/Skyblock-Utility-Bot.git
 cd sbt-utility
 ```
 
